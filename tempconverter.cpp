@@ -1,10 +1,11 @@
 #include <iostream>
 #include "calculator.h"
 
+// converts Celsius to Fahrenheit
 void doConversion()
 {
     std::cout << "Enter a temperate to convert to Celsius: ";
-    double celsius{}; // temperature input
+    double celsius{};
     std::cin >> celsius;
 
     double fahrenheit{celsius * 9 / 5 + 32};
